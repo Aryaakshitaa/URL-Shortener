@@ -1,0 +1,49 @@
+<body>
+  <div class="container-fluid" style="background-color:darkgray; height: 300px; text-align:center">
+    <div class="col-lg-12 text-center" style="margin-top: 2rem">
+      <h1 class="text-center">OVERVIEW</h1>
+    </div>
+ 
+    <div class="row d-flex" style="justify-content: space-around">
+      <div class="col-lg-6 d-flex ml-5 mt-5">
+        <div class="card border-left-secondary shadow mr-5 h-100 py-2">
+          <div class="card-body">
+            <div class="row no-gutters align-items-center">
+              <div class="col mr-2">
+                <div class="text-xs font-weight-bold text-uppercase mb-1">
+                  Total no. of Links
+                </div>
+                <div class="h5 mb-0 font-weight-bold text-gray-800">
+                  {{ totalLinks }}
+                </div>
+              </div>
+              <div class="col-auto ml-3 mr-2">
+                <i class="fa fa-link fa-2x text-gray-300"
+                   aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card border-left-secondary shadow ml-5 h-100 py-2">
+          <div class="card-body">
+            <div class="row no-gutters align-items-center">
+              <div class="col mr-2">
+                <div class="text-xs font-weight-bold text-uppercase mb-1">
+                  Total no. of Clicks
+                </div>
+                <div class="h5 mb-0 font-weight-bold text-gray-800">
+                  {{ totalClicks }}
+                </div>
+              </div>
+              <div class="col-auto ml-5 mr-2">
+                <i class="fa fa-mouse-pointer fa-2x text-gray-300"
+                   aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
